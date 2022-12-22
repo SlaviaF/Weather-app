@@ -48,7 +48,7 @@ function App() {
   }, [location])
   if (!data) {
     return (
-      <div><ImSpinner8 className='text-5xl animate-spin' /></div>
+      <div class="h-screen flex justify-center items-center bg-hero bg-cover bg-center text-white"><ImSpinner8 className='text-5xl animate-spin' /></div>
     )
   }
   let icon;

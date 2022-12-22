@@ -126,7 +126,7 @@ function App() {
                   </div>
 
 
-                  <span className='text-xs'>Feels like</span>
+                  <span className='text-xs sm:text-sm'>Feels like</span>
                 </div>
                 <div className='ml-2 text-xs sm:text-sm flex'>{parseInt(data.main.feels_like)}<TbTemperatureCelsius /> </div>
               </div>
